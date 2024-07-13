@@ -1,0 +1,601 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+aside div , nav div section , nav div .All-word{
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+}
+
+.aside-div{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+aside{
+    background: white;
+    height: 100vh;
+    width: 300px;
+    transition: 0.5;
+}
+
+
+aside img , aside h3 , aside p , aside div i , #facbook{
+    margin-left: 16px;
+}
+
+aside .img-icon{
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside .img-icon img{
+    width: 120.6px;
+    height: 120.6px;
+    border-radius: 5px;
+}
+aside .img-icon i{
+    font-size: 60px;
+    font-weight: 900;
+    padding: 28px 15px; 
+    margin: 18px 15px 0px 0px;
+    cursor: pointer;
+    display: none;
+}
+
+
+aside .img-icon i:hover{
+    background-color: rgba(128, 128, 128, 0.525);
+}
+
+aside h3{
+    font-weight: 600;
+    padding-top:  15px;
+}
+
+aside p{
+    color: rgba(128, 128, 128, 0.605);
+    margin-bottom: 20px;
+}
+
+aside div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+aside div:hover , nav div section:hover , nav div .All-word:hover{
+    background-color: rgba(54, 54, 54, 0.215);
+}
+
+aside div a{
+
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+aside .cyan-div a , .cyan-div{
+    color: rgb(77,175,163);
+}
+
+aside h3 , aside p , aside img{
+    margin-top: 20px;
+}
+
+aside section{
+    margin-top: 20px;
+}
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    background-color: rgb(241,241,241);
+    padding: 0px 15px;
+}
+
+.hiddenNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.hiddenNav i{
+    font-size: 35px;
+}
+
+.hiddenNav img{
+    width: 65px;
+    border-radius: 50%;
+    margin: 15px 2px 0px 0px;
+}
+
+nav{
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+nav h1{
+    margin: 10px 0px 35px 0px;
+    font-size: 40px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+nav div p{
+    font-size: 15px;
+}
+
+nav div .All-word{
+    color: white;
+    background: #000;
+    padding: 8px 15px;
+    margin-left: 20px;
+}
+
+nav div .All-word:hover{
+    background-color: rgba(54, 54, 54, 0.215);
+    color: black;
+}
+
+nav div section{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    background-color: white;
+    padding: 8px 16px;
+}
+
+nav div section i{
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+nav div h6{
+    margin-left: 5px;
+}
+
+hr{
+    border: 3px solid rgba(128, 128, 128, 0.345);
+    margin: 10px 0px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.images div{
+    width: calc(97% / 3);
+    background-color: white;
+    margin-bottom: 1.5%;
+    
+}
+
+.images img{
+    width: 100%;
+}
+
+.images img:hover{
+    opacity: 0.6;
+}
+
+.images h6 , .images p{
+    padding: 10px;
+}
+.images h6{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 40px 0px;
+    font-size: 20px;
+}
+
+.numbers span , .numbers div{
+    padding: 10px 14px;
+    color: rgba(0, 0, 0, 0.749);
+}
+
+.numbers div{
+    background: black;
+    color: white;
+}
+
+.numbers div:hover{
+    background: rgba(128, 128, 128, 0.605);
+    color: black;
+}
+.numbers span:hover{
+    background: black;
+    color: white;
+}
+
+.right-left-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-left-images img{
+    width: 49.3%;
+}
+
+.mid{
+    padding: 8px;
+}
+
+.mid h2 , .mid h3{
+    margin: 17px 0px;
+    font-weight: 600;
+}
+.p{
+    margin-bottom: 40px;
+}
+
+.div2 p , .div3 p{
+    margin-top: 20px;
+}
+
+.rectangle{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.525);
+}
+
+.rectangle div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.per1 , .per2 , .per3{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    height: 100%;
+}
+
+.per1{
+    width: 95%;
+}
+.per2{
+    width: 85%;
+}
+.per3{
+    width: 80%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 210px;
+}
+
+.theButton button{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    padding: 14px 10px;
+    border: none;
+    margin: 30px 0px 60px 0px;
+    font-size: 16px;
+}
+
+.chargingDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.chargingDiv div{
+    background: white;
+    width: calc(97% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px rgba(104, 104, 104, 0.27);
+    background: white;
+    opacity: 0.6;
+}
+
+.chargingDiv div:hover{
+    opacity: 1;
+}
+
+.chargingDiv div header{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 35px 0px;
+    background: #000;
+}
+
+.chargingDiv hr{
+    border: 1px solid rgba(128, 128, 128, 0.345);
+    margin: 0px;
+}
+
+.chargingDiv p{
+    padding: 18px 0px;
+}
+
+.chargingDiv span{
+    margin-bottom: 15px;
+}
+
+.chargingDiv footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241,241,241);
+
+}
+
+.chargingDiv button{
+    padding: 13px 20px;
+    color: white;
+    background: rgb(0,150,136);
+    border: none;
+    margin: 25px 0px;
+    font-size: 16px;
+}
+
+.chargingDiv hr , .chargingDiv p , .chargingDiv h2 , .chargingDiv span , .chargingDiv div , .chargingDiv div header ,.chargingDiv footer{
+    width: 100%;
+}
+
+.preFooter{
+    background: rgb(158,158,158);
+    padding: 20px 13px;
+}
+
+.preFooter h2{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.preFooter .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preFooter .boxes div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(97,97,97);
+    width: calc(100% / 3);
+    height: 100px;
+    color: white;
+    margin-top: 30px;
+}
+
+.preFooter .boxes div i{
+    font-size: 40px;
+}
+
+.preFooter hr{
+    border: solid 1px rgba(255, 255, 255, 0.525);
+    margin: 45px 7px 15px 7px;
+}
+
+.preFooter label{
+    display: block;
+    padding: 10px 0px 2px 0px;
+    color: rgba(0, 0, 0, 0.734);
+}
+
+.preFooter input{
+    height: 40px;
+    border: none;
+}
+
+.preFooter label , .preFooter input{
+    margin: 0px 7px;
+    width: 97.6%;
+}
+
+.labels button{
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    margin: 15px 0px 0px 7px;
+    border: none;
+    width: 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(97,97,97);
+    color: white;
+    padding: 50px 30px 40px 30px;
+}
+
+footer div{
+    width: calc(99% / 3);
+}
+
+footer .midP{
+    margin: 0px 0px 20px 0px;
+}
+
+footer img{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+footer li:hover{
+    background: rgba(255, 255, 255, 0.656);
+}
+
+
+footer hr{
+    border: solid rgba(255, 255, 255, 0.752) 1px;
+}
+
+footer h2{
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.foot2 h3{
+    margin-bottom: 5px;
+}
+
+.Tags{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.Tags span{
+    background: #000;
+    color: white;
+    padding: 3px 5px;
+    font-size: 16px;
+}
+
+.Tags div{
+    color: black;
+    font-size: 13px;
+    background: rgb(158,158,158);
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 7px;
+}
+
+.Tags div p{
+    font-size: 13px;
+}
+
+.TheEnd{
+    height: 70px;
+    background: #000;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .aside-div{
+        position: fixed;
+        background: white;
+        display: none;
+        z-index: 4;
+    }
+    .hiddenNav{
+        display: flex;
+    }
+    aside .img-icon i{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 600px){
+    .aside-div{
+        position: fixed;
+        background: white;
+        display: none;
+        z-index: 3;
+    }
+    .chargingDiv , .right-left-images , .images , .boxes , footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .boxes , footer{
+        align-items: center;
+    }
+    .preFooter .boxes div{
+        width: 100%;
+        margin: 0px;
+    }
+    .preFooter .boxes .box1{
+        margin-top: 40px;
+    }
+    .images{
+        width: 100%;
+    }
+    .images div{
+        width: 100%;
+    }
+    footer div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer span{
+        margin-bottom: 18px;
+    }
+    .PhotoSection , .artSection {
+        display: none;
+    }
+    .right-left-images img{
+        width: 99%;
+        margin-bottom: 15px;
+    }
+    .hiddenNav{
+        display: flex;
+    }
+    aside .img-icon i{
+        display: block;
+    }
+}
+
+/* background: rgba(0, 0, 0, 0.5); */
